@@ -15,7 +15,8 @@ def caesar_cipher(message, shift):    #takes in two parameters, message and shif
               result += char
       return result
 
-shift = int(input("Enter shift value:")   #person can choose the shift value to encryt the message
+shift = int(input("Enter shift value:")   #person can choose the shift value to encryt the message. 
+                                          #After entering what shift you want, the program will wait for message input by the user. 
             
 for line in sys.stdin:    #reads the lines of the given input 
   print(caesar_cipher(line, shift))     #prints the results of now encrypted string 
